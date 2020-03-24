@@ -1,0 +1,51 @@
+# list of tag class
+# тип изображения
+tglist_img_type   = ['foto', 'gif', 'draw', '3d_render', 'hentai', 'simple_shape']
+# заполнение изображения
+tglist_img_fill   = ['face', 'upper_body', 'down_body', 'whole_body', 'multiple_body', 'body_n_surroundings']
+# ориентация изображ
+tglist_img_orient = ['scroll', 'portrait', 'square', 'album', 'landscape']
+# размер изображения
+tglist_img_size   = ['small', 'medium', 'large', 'wallpaper', 'ultra_large']
+# качество изображения
+tglist_img_dpi    = ['small', 'medium', 'large']
+#%%
+# tgdict_img_type
+# tgdict_img_fill
+# tgdict_img_orient = {el:0 for el in tglist_img_orient}
+# tgdict_img_size
+# tgdict_img_dpi
+#%%
+# внешний вид актёров, цвет волос, макияж, одежда, прочее
+# тип волос = длинные, короткие, прямые, вьющиеся, кудрявые, сложная _прическа, отсутствуютп
+tglist_hair_type         = ['long', 'short', 'straight', 'waving', 'curly', 'haircut', 'none']
+# цвет волос = брюнетка, русая, блонди, рыжая/красная, другой_цвет, нет_волос
+tglist_hair_color        = ['brunette', 'brown', 'blonde', 'redhair', 'other', 'nohair']
+# макияж_общий = нету, легкий, средний, тяжелый
+tglist_makeup_total      = ['none', 'light', 'medium', 'heavy']
+# макияж глаз (н,л,с,т) и цвет макияжа = нету, натуральный, черный
+tglist_eye_makeup_amount = ['none', 'light', 'medium', 'heavy']
+tglist_eye_makeup_color  = ['none', 'natural', 'black']
+# цвет зрачков глаз = карие, голубые, зеленые, особые
+tglist_eye_ocular_color  = ['brown', 'blue', 'green', 'specific']
+# цвет губной помады
+tglist_lips_makeup_color = ['none', 'red', 'pink', 'dark']
+# размер губ 
+tglist_lips_size         = ['thin', 'middle', 'fat']
+# загар/цвет_кожи = бледный, средний, загорелый, метис, негритян, азиатка
+tglist_skin_color_tan    = ['white', 'middle', 'tanned', 'black', 'asian']
+# тип одежды = нету, обычная, обтягивающее, блестящее, латекс, чулки, косплей_персонажа
+tglist_dress_type        = ['none', 'casual', 'tight', 'shiny', 'latex', 'stockings', 'pantyhose', 'cosplay']
+# цвет одежды = нету, чёрная, белая, красная/яркая, прочие_цвета, радуга
+tglist_dress_color       = ['none', 'black', 'white', 'red', 'other', 'rainbow']
+
+# тип совокупления = классика, лесбиянки, трансы, геи, бисекс, стриптиз
+tglist_sex_type          = ['straight', 'lesbian', 'tranny', 'gay', 'bisex', 'tease']
+# позы совокупления = миссионер, наездница, раком, трутца, сидеть_лицо, отсос, дрочка, поцелуи, страпон_Ж+Ж, страпон_Ж+М, секс_игрушки
+tglist_sex_pose_type     = ['missionere', 'riding', 'behind', 'grinding', 'facesitting', 'blowjob', 'handjob', 'kissing', 'strapon', 'pegging', 'toys']
+# фетиши  = чулки, удушение, масло, красота, сперма на лице, доминирование
+tglist_fetish            = ['stockings', 'strangle', 'oily', 'beauty', 'bukkake', 'femdom']
+
+#позы фотомодели
+pose_of_model            = ['standing', 'sit_on_chair', 'sit_on_squat', 'kneels', 'lay_on_stomach', 'lay_on_back']
+
